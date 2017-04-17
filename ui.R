@@ -78,7 +78,7 @@ navbarPage("Philadelphia Locator", theme = "bootstrap.min.css",
              ),
              mainPanel(
                h4("Github"),
-               p("Source code used for the app may be found on", a(href="https://dorcas25sg.github.io/shiny/", "this repository"))
+               p("Source code used for the app may be found on", a(href="https://github.com/dorcas25sg/shiny", "this repository"))
              )
            )
            
