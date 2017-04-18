@@ -37,11 +37,5 @@ function(input, output) {
         addGeoJSON(data())
     }
   })
-  
- observeEvent(input$reset, {
-    updateTextInput(session, "popup", value="")
-    leafletProxy("map") %>% 
-      setView(lat = 39.9526, lng = -75.1652, zoom = 11)
-  })
 }
 
