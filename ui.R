@@ -35,7 +35,7 @@ navbarPage("Philadelphia Locator", theme = "bootstrap.min.css",
                  tags$li("Max Lat: 40.1379623413"),
                  tags$li("Max Long: -74.9558258057")
                ),
-              p("Search reslts are then prioritized based on closest distance to Stephen A. Levin Building.")
+              p("Search results are then prioritized based on closest distance to Stephen A. Levin Building.")
              )
            )
   ),
